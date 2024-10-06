@@ -14,6 +14,14 @@
 		1D006B812CB1A42A00D1EC12 /* SwiftUINavigationDrawerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006B802CB1A42A00D1EC12 /* SwiftUINavigationDrawerTests.swift */; };
 		1D006B8B2CB1A42A00D1EC12 /* SwiftUINavigationDrawerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006B8A2CB1A42A00D1EC12 /* SwiftUINavigationDrawerUITests.swift */; };
 		1D006B8D2CB1A42A00D1EC12 /* SwiftUINavigationDrawerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006B8C2CB1A42A00D1EC12 /* SwiftUINavigationDrawerUITestsLaunchTests.swift */; };
+		1D006BA02CB1A60E00D1EC12 /* DrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006B9F2CB1A60E00D1EC12 /* DrawerView.swift */; };
+		1D006BA32CB2991900D1EC12 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006BA22CB2991900D1EC12 /* HomeView.swift */; };
+		1D006BA52CB2994000D1EC12 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006BA42CB2994000D1EC12 /* ChatView.swift */; };
+		1D006BA72CB2995C00D1EC12 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006BA62CB2995C00D1EC12 /* FavoriteView.swift */; };
+		1D006BA92CB2998400D1EC12 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006BA82CB2998400D1EC12 /* ProfileView.swift */; };
+		1D006BAC2CB29D3300D1EC12 /* NavigationDrawerRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006BAB2CB29D3300D1EC12 /* NavigationDrawerRowType.swift */; };
+		1D006BAF2CB2BBF200D1EC12 /* NavigationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006BAE2CB2BBF200D1EC12 /* NavigationMenu.swift */; };
+		1D006BB12CB2D80700D1EC12 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D006BB02CB2D80700D1EC12 /* ToolbarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		1D006B862CB1A42A00D1EC12 /* SwiftUINavigationDrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUINavigationDrawerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D006B8A2CB1A42A00D1EC12 /* SwiftUINavigationDrawerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigationDrawerUITests.swift; sourceTree = "<group>"; };
 		1D006B8C2CB1A42A00D1EC12 /* SwiftUINavigationDrawerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigationDrawerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1D006B9F2CB1A60E00D1EC12 /* DrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerView.swift; sourceTree = "<group>"; };
+		1D006BA22CB2991900D1EC12 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1D006BA42CB2994000D1EC12 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		1D006BA62CB2995C00D1EC12 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		1D006BA82CB2998400D1EC12 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1D006BAB2CB29D3300D1EC12 /* NavigationDrawerRowType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDrawerRowType.swift; sourceTree = "<group>"; };
+		1D006BAE2CB2BBF200D1EC12 /* NavigationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMenu.swift; sourceTree = "<group>"; };
+		1D006BB02CB2D80700D1EC12 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +110,9 @@
 		1D006B6E2CB1A42900D1EC12 /* SwiftUINavigationDrawer */ = {
 			isa = PBXGroup;
 			children = (
+				1D006BAD2CB2B9F300D1EC12 /* Drawer */,
+				1D006BAA2CB29D1E00D1EC12 /* Models */,
+				1D006BA12CB298E900D1EC12 /* Screens */,
 				1D006B6F2CB1A42900D1EC12 /* SwiftUINavigationDrawerApp.swift */,
 				1D006B712CB1A42900D1EC12 /* ContentView.swift */,
 				1D006B732CB1A42A00D1EC12 /* Assets.xcassets */,
@@ -125,6 +144,35 @@
 				1D006B8C2CB1A42A00D1EC12 /* SwiftUINavigationDrawerUITestsLaunchTests.swift */,
 			);
 			path = SwiftUINavigationDrawerUITests;
+			sourceTree = "<group>";
+		};
+		1D006BA12CB298E900D1EC12 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1D006BA22CB2991900D1EC12 /* HomeView.swift */,
+				1D006BA42CB2994000D1EC12 /* ChatView.swift */,
+				1D006BA62CB2995C00D1EC12 /* FavoriteView.swift */,
+				1D006BA82CB2998400D1EC12 /* ProfileView.swift */,
+				1D006BB02CB2D80700D1EC12 /* ToolbarView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1D006BAA2CB29D1E00D1EC12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D006BAB2CB29D3300D1EC12 /* NavigationDrawerRowType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D006BAD2CB2B9F300D1EC12 /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				1D006BAE2CB2BBF200D1EC12 /* NavigationMenu.swift */,
+				1D006B9F2CB1A60E00D1EC12 /* DrawerView.swift */,
+			);
+			path = Drawer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D006BA72CB2995C00D1EC12 /* FavoriteView.swift in Sources */,
+				1D006BAF2CB2BBF200D1EC12 /* NavigationMenu.swift in Sources */,
+				1D006BA92CB2998400D1EC12 /* ProfileView.swift in Sources */,
 				1D006B722CB1A42900D1EC12 /* ContentView.swift in Sources */,
+				1D006BA32CB2991900D1EC12 /* HomeView.swift in Sources */,
+				1D006BAC2CB29D3300D1EC12 /* NavigationDrawerRowType.swift in Sources */,
+				1D006BB12CB2D80700D1EC12 /* ToolbarView.swift in Sources */,
+				1D006BA52CB2994000D1EC12 /* ChatView.swift in Sources */,
+				1D006BA02CB1A60E00D1EC12 /* DrawerView.swift in Sources */,
 				1D006B702CB1A42900D1EC12 /* SwiftUINavigationDrawerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
